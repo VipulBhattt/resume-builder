@@ -1,3 +1,57 @@
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 1.4rem;
+  font-style: normal;
+  font-size: larger;
+}
+
+
+
+.popup{
+  background-color: #e9e6e0eb;
+  box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.6);
+  margin: 10%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.popup-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  background-color: #157680;
+  box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.6);
+  color:#f4f0e5;
+  margin-top: 10%;
+  padding: 3%;
+  border-radius: 20px;
+  box-shadow: black;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('\pngtree-my-resume-background-material-image_177383.jpg');  
+  background-size: contain;
+  background-position: center;
+  filter: blur(5px);
+  z-index: -1;
+}
 .App {
   text-align: center;
 }
