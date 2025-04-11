@@ -14,6 +14,7 @@
 
 
 
+
 .popup{
   background-color: #e9e6e0eb;
   box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.6);
@@ -27,15 +28,16 @@
   align-items: center;
 }
 .container{
+  min-height: calc(100vh-56px);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 56px;
 }
 .box{
   background-color: #157680;
   box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.6);
   color:#f4f0e5;
-  margin-top: 10%;
   padding: 3%;
   border-radius: 20px;
   box-shadow: black;

@@ -38,6 +38,7 @@ export default function Experience({ popText, data, setData }) {
         details: experiences,
       },
     }));
+    console.log(experiences);
     nav("/education");
   };
 
